@@ -23,5 +23,5 @@ MONGODB_URI=mongodb://pi:raspberry@172.20.10.4:27017/
 ## 應用程式介紹
 - 前端使用html,css,javascript
 - 中間使用fastAPI串接
-- 後端使用mondb介面
+- 後端使用mongodb介面
 

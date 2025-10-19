@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li span {
+    flex-grow: 1;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #dc3545;
+}
